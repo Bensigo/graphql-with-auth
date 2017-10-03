@@ -4,7 +4,7 @@ A GraphQL API with authentication, using mongoDB, Express, apollo-server-express
  window : https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
  Mac: https://treehouse.github.io/installation-guides/mac/mongo-mac.html
 #### installing app packages 
- change DIR to the app DIR and run the command. #### 
+ change DIR to the app DIR and run the command.<br/> 
   ```npm install```
 #### starting Dev server 
  ```npm run dev```
