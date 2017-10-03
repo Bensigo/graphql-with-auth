@@ -1,0 +1,49 @@
+{
+  "name": "graphql-with-auth",
+  "version": "1.0.0",
+  "description": "A GraphQL API with authentication, using mongoDB, Express, apollo-server-express. To start the app you need to have mongoDB install in your computer.  #### Installing MongoDB  window : https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/  Mac: https://treehouse.github.io/installation-guides/mac/mongo-mac.html #### installing app packages   change DIR to the app DIR and run the command.<br/>    ```npm install``` #### starting Dev server   ```npm run dev``` ##### starting production server ``` npm run start ``` #### checking lint ``` npm run lint```",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node_modules/nodemon/bin/nodemon.js ./src/server.js --exec 'npm run lint && node'",
+    "lint": "node_modules/.bin/eslint **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bensigo/graphql-with-auth.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Express",
+    "GraphQL",
+    "MongoDB",
+    "Authentication"
+  ],
+  "author": "Bensigo Egwey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bensigo/graphql-with-auth/issues"
+  },
+  "homepage": "https://github.com/Bensigo/graphql-with-auth#readme",
+  "dependencies": {
+    "apollo-server-express": "^1.1.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.1",
+    "graphql": "^0.11.6",
+    "graphql-tools": "^2.0.0",
+    "jsonwebtoken": "^8.0.1",
+    "mongoose": "^4.12.0",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "nodemon": "^1.12.1"
+  }
+}
