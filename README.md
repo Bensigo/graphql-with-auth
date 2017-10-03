@@ -5,10 +5,10 @@ A GraphQL API with authentication, using mongoDB, Express, apollo-server-express
  Mac: https://treehouse.github.io/installation-guides/mac/mongo-mac.html
 #### installing app packages 
  change DIR to the app DIR and run the command.
-  npm install 
+  ```npm instal```l 
 #### starting Dev server 
- npm run dev
+ ```npm run dev```
 ##### starting production server
- npm run start 
+``` npm run start ```
 #### checking lint
- npm run lint
+``` npm run lint```
