@@ -1,4 +1,4 @@
-# GraphQL with Authenticaltio
+# GraphQL with Authenticaltion
 A GraphQL API with authentication, using mongoDB, Express, apollo-server-express. To start the app you need to have mongoDB install in your computer. 
 #### Installing MongoDB
  window : https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
